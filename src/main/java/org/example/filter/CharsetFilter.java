@@ -20,6 +20,7 @@ public class CharsetFilter implements Filter {
         servletResponse.setCharacterEncoding(StandardCharsets.UTF_8.name());
         filterChain.doFilter(servletRequest, servletResponse);
         System.out.println();
+        System.out.println("new commit");
     }
 
 }
