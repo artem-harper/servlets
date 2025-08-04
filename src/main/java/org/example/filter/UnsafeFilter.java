@@ -21,5 +21,7 @@ public class UnsafeFilter implements Filter {
         }else {
             ((HttpServletResponse) servletResponse).sendRedirect("/registration");
         }
+
+        System.out.println("new file to commit");
     }
 }
